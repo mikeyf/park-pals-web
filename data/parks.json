@@ -1,0 +1,2774 @@
+{
+  "parks": [
+    {
+      "id": "osm-node-531591961",
+      "name": "Playground 531591961",
+      "lat": 32.1135852,
+      "lng": 34.9019373,
+      "address": "Petah Tikva",
+      "ageTags": [
+        "0-2",
+        "3-5"
+      ],
+      "amenities": [
+        "shade",
+        "bathrooms"
+      ],
+      "parking": {
+        "type": "street",
+        "paid": false,
+        "walkMins": 3,
+        "availability": "med"
+      },
+      "category": "playground",
+      "nameKeywords": [
+        "playground"
+      ]
+    },
+    {
+      "id": "osm-node-1171695670",
+      "name": "Playground 1171695670",
+      "lat": 32.1223359,
+      "lng": 34.8412129,
+      "address": "Petah Tikva",
+      "ageTags": [
+        "3-5",
+        "6-9"
+      ],
+      "amenities": [
+        "fenced",
+        "water"
+      ],
+      "parking": {
+        "type": "lot",
+        "paid": false,
+        "walkMins": 5,
+        "availability": "high"
+      },
+      "category": "playground",
+      "nameKeywords": [
+        "playground"
+      ]
+    },
+    {
+      "id": "osm-node-1942357242",
+      "name": "Playground 1942357242",
+      "lat": 32.1049001,
+      "lng": 34.8748379,
+      "address": "Petah Tikva",
+      "ageTags": [
+        "6-9",
+        "10-12"
+      ],
+      "amenities": [
+        "picnic",
+        "bathrooms"
+      ],
+      "parking": {
+        "type": "street",
+        "paid": true,
+        "walkMins": 2,
+        "availability": "low"
+      },
+      "category": "playground",
+      "nameKeywords": [
+        "playground"
+      ]
+    },
+    {
+      "id": "osm-node-1942357271",
+      "name": "Playground 1942357271",
+      "lat": 32.1052909,
+      "lng": 34.8738349,
+      "address": "Petah Tikva",
+      "ageTags": [
+        "0-2",
+        "3-5",
+        "6-9"
+      ],
+      "amenities": [
+        "shade",
+        "fenced"
+      ],
+      "parking": {
+        "type": "lot",
+        "paid": true,
+        "walkMins": 6,
+        "availability": "med"
+      },
+      "category": "playground",
+      "nameKeywords": [
+        "playground"
+      ]
+    },
+    {
+      "id": "osm-node-2524164147",
+      "name": "\u05d2\u05df \u05de\u05e9\u05d7\u05e7\u05d9\u05dd",
+      "lat": 32.1018261,
+      "lng": 34.8809861,
+      "address": "Petah Tikva",
+      "ageTags": [
+        "All ages"
+      ],
+      "amenities": [
+        "water",
+        "bathrooms"
+      ],
+      "parking": {
+        "type": "street",
+        "paid": false,
+        "walkMins": 3,
+        "availability": "med"
+      },
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ]
+    },
+    {
+      "id": "osm-node-2888988093",
+      "name": "Playground 2888988093",
+      "lat": 32.0986437,
+      "lng": 34.8815945,
+      "address": "Petah Tikva",
+      "ageTags": [
+        "0-2",
+        "3-5"
+      ],
+      "amenities": [
+        "shade",
+        "bathrooms"
+      ],
+      "parking": {
+        "type": "lot",
+        "paid": false,
+        "walkMins": 5,
+        "availability": "high"
+      },
+      "category": "playground",
+      "nameKeywords": [
+        "playground"
+      ]
+    },
+    {
+      "id": "osm-node-4741969772",
+      "name": "Playground 4741969772",
+      "lat": 32.0805911,
+      "lng": 34.8960013,
+      "address": "Petah Tikva",
+      "ageTags": [
+        "3-5",
+        "6-9"
+      ],
+      "amenities": [
+        "fenced",
+        "water"
+      ],
+      "parking": {
+        "type": "street",
+        "paid": true,
+        "walkMins": 2,
+        "availability": "low"
+      },
+      "category": "playground",
+      "nameKeywords": [
+        "playground"
+      ]
+    },
+    {
+      "id": "osm-node-5329151844",
+      "name": "Belinson playground",
+      "lat": 32.079371,
+      "lng": 34.9173505,
+      "address": "Petah Tikva",
+      "ageTags": [
+        "6-9",
+        "10-12"
+      ],
+      "amenities": [
+        "picnic",
+        "bathrooms"
+      ],
+      "parking": {
+        "type": "lot",
+        "paid": true,
+        "walkMins": 6,
+        "availability": "med"
+      },
+      "category": "playground",
+      "nameKeywords": [
+        "playground"
+      ]
+    },
+    {
+      "id": "osm-node-5329151846",
+      "name": "Playground 5329151846",
+      "lat": 32.0796608,
+      "lng": 34.914985,
+      "address": "Petah Tikva",
+      "ageTags": [
+        "0-2",
+        "3-5",
+        "6-9"
+      ],
+      "amenities": [
+        "shade",
+        "fenced"
+      ],
+      "parking": {
+        "type": "street",
+        "paid": false,
+        "walkMins": 3,
+        "availability": "med"
+      },
+      "category": "playground",
+      "nameKeywords": [
+        "playground"
+      ]
+    },
+    {
+      "id": "osm-node-5852987890",
+      "name": "Playground 5852987890",
+      "lat": 32.0890325,
+      "lng": 34.8522952,
+      "address": "Petah Tikva",
+      "ageTags": [
+        "All ages"
+      ],
+      "amenities": [
+        "water",
+        "bathrooms"
+      ],
+      "parking": {
+        "type": "lot",
+        "paid": false,
+        "walkMins": 5,
+        "availability": "high"
+      },
+      "category": "playground",
+      "nameKeywords": [
+        "playground"
+      ]
+    },
+    {
+      "id": "osm-node-5997801263",
+      "name": "Playground 5997801263",
+      "lat": 32.0895927,
+      "lng": 34.87738,
+      "address": "Petah Tikva",
+      "ageTags": [
+        "0-2",
+        "3-5"
+      ],
+      "amenities": [
+        "shade",
+        "bathrooms"
+      ],
+      "parking": {
+        "type": "street",
+        "paid": true,
+        "walkMins": 2,
+        "availability": "low"
+      },
+      "category": "playground",
+      "nameKeywords": [
+        "playground"
+      ]
+    },
+    {
+      "id": "osm-node-6264312373",
+      "name": "Playground 6264312373",
+      "lat": 32.0804718,
+      "lng": 34.8493125,
+      "address": "Petah Tikva",
+      "ageTags": [
+        "3-5",
+        "6-9"
+      ],
+      "amenities": [
+        "fenced",
+        "water"
+      ],
+      "parking": {
+        "type": "lot",
+        "paid": true,
+        "walkMins": 6,
+        "availability": "med"
+      },
+      "category": "playground",
+      "nameKeywords": [
+        "playground"
+      ]
+    },
+    {
+      "id": "osm-node-6630352283",
+      "name": "Playground 6630352283",
+      "lat": 32.100009,
+      "lng": 34.8834563,
+      "address": "Petah Tikva",
+      "ageTags": [
+        "6-9",
+        "10-12"
+      ],
+      "amenities": [
+        "picnic",
+        "bathrooms"
+      ],
+      "parking": {
+        "type": "street",
+        "paid": false,
+        "walkMins": 3,
+        "availability": "med"
+      },
+      "category": "playground",
+      "nameKeywords": [
+        "playground"
+      ]
+    },
+    {
+      "id": "osm-node-7751984495",
+      "name": "Playground 7751984495",
+      "lat": 32.0892966,
+      "lng": 34.8690805,
+      "address": "Petah Tikva",
+      "ageTags": [
+        "0-2",
+        "3-5",
+        "6-9"
+      ],
+      "amenities": [
+        "shade",
+        "fenced"
+      ],
+      "parking": {
+        "type": "lot",
+        "paid": false,
+        "walkMins": 5,
+        "availability": "high"
+      },
+      "category": "playground",
+      "nameKeywords": [
+        "playground"
+      ]
+    },
+    {
+      "id": "osm-node-8231654348",
+      "name": "Playground 8231654348",
+      "lat": 32.1123511,
+      "lng": 34.9164023,
+      "address": "Petah Tikva",
+      "ageTags": [
+        "All ages"
+      ],
+      "amenities": [
+        "water",
+        "bathrooms"
+      ],
+      "parking": {
+        "type": "street",
+        "paid": true,
+        "walkMins": 2,
+        "availability": "low"
+      },
+      "category": "playground",
+      "nameKeywords": [
+        "playground"
+      ]
+    },
+    {
+      "id": "osm-node-530261208",
+      "name": "\u05e0\u05d5\u05d5\u05d4 \u05d2\u05df",
+      "lat": 32.0918052,
+      "lng": 34.8734737,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-node-1033215773",
+      "name": "The Pool Parking Lot",
+      "lat": 32.0616198,
+      "lng": 34.8821153,
+      "address": "Petah Tikva",
+      "category": "park",
+      "nameKeywords": [
+        "park"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-node-1803004345",
+      "name": "\u05d2\u05df \u05d3\u05e7\u05dc/\u05d4\u05e0\u05e9\u05d9\u05d0",
+      "lat": 32.08186,
+      "lng": 34.849509,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-node-1803004788",
+      "name": "\u05de\u05ea\u05e0\u05f4\u05e1 \u05e0\u05d5\u05d5\u05d4 \u05d2\u05df/\u05d2\u05e8\u05d9\u05e0\u05e9\u05e4\u05df",
+      "lat": 32.096018,
+      "lng": 34.875601,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-node-1803031550",
+      "name": "\u05e4\u05d0\u05e8\u05e7 \u05d9\u05e6\u05d7\u05e7 \u05d0\u05d5\u05d7\u05d9\u05d5\u05df/\u05d1\u05d6\u05dc",
+      "lat": 32.093134,
+      "lng": 34.866728,
+      "address": "Petah Tikva",
+      "category": "park",
+      "nameKeywords": [
+        "\u05e4\u05d0\u05e8\u05e7"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-node-1803067689",
+      "name": "\u05e4\u05d0\u05e8\u05e7 \u05e8\u05de\u05d5\u05df/\u05e9\u05d3\u05f3 \u05de\u05e0\u05d7\u05dd \u05d1\u05d2\u05d9\u05df",
+      "lat": 32.073499,
+      "lng": 34.853558,
+      "address": "Petah Tikva",
+      "category": "park",
+      "nameKeywords": [
+        "\u05e4\u05d0\u05e8\u05e7"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-node-2123827839",
+      "name": "\u05d2\u05df \u05e9\u05de\u05d7\u05d4",
+      "lat": 32.0927484,
+      "lng": 34.8843953,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-node-2338353152",
+      "name": "\u05d2\u05df \u05d5\u05e8\u05d3",
+      "lat": 32.0782176,
+      "lng": 34.8803362,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-node-2396249407",
+      "name": "\u05d2\u05df \u05e2\u05d5\u05e4\u05e8\u05d9\u05dd",
+      "lat": 32.0996184,
+      "lng": 34.8777332,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-node-2439390571",
+      "name": "\u05d2\u05df \u05d7\u05d9\u05d8\u05d4",
+      "lat": 32.099928,
+      "lng": 34.8976948,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-node-3502749176",
+      "name": "\u05d1\u05dc\u05d2\u05df \u05dc\u05d9",
+      "lat": 32.0895137,
+      "lng": 34.8840131,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-node-3559042856",
+      "name": "\u05dc\u05d2\u05df \u05d5\u05dc\u05d8\u05e3",
+      "lat": 32.0891107,
+      "lng": 34.8867479,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-node-3621796919",
+      "name": "\u05d2\u05df \u05d7\u05d2\u05d1",
+      "lat": 32.0751671,
+      "lng": 34.892429,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-node-3621796920",
+      "name": "\u05d2\u05df \u05e9\u05e4\u05d9\u05e8\u05d9\u05ea",
+      "lat": 32.0749712,
+      "lng": 34.8925151,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-node-4344205769",
+      "name": "\u05de\u05e2\u05d3\u05e0\u05d9\u05d9\u05ea \u05d2\u05df \u05e2\u05d3\u05df",
+      "lat": 32.0942406,
+      "lng": 34.8900992,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-node-4356000260",
+      "name": "\u05de\u05d9\u05e5 \u05d2\u05df \u05e2\u05d3\u05df",
+      "lat": 32.0890096,
+      "lng": 34.8863462,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-node-4365266121",
+      "name": "\u05d2\u05df \u05d4\u05e4\u05e8\u05d7\u05d9\u05dd",
+      "lat": 32.0862408,
+      "lng": 34.8858746,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-node-4375499118",
+      "name": "\u05de\u05d5\u05e8\u05d2\u05df",
+      "lat": 32.089265,
+      "lng": 34.8834235,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-node-4375881639",
+      "name": "\u05e1\u05dc\u05d5\u05df \u05d0\u05d2\u05df",
+      "lat": 32.087766,
+      "lng": 34.8835943,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-node-4387006020",
+      "name": "\u05d0\u05dc\u05e7\u05d8\u05e8\u05d5 \u05d3\u05d2\u05df",
+      "lat": 32.0847678,
+      "lng": 34.88655,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-node-5210716909",
+      "name": "\u05d4\u05e8\u05e6\u05dc/\u05e4\u05d0\u05e8\u05e7 \u05d5\u05e8\u05e9\u05d4",
+      "lat": 32.066123,
+      "lng": 34.857149,
+      "address": "Petah Tikva",
+      "category": "park",
+      "nameKeywords": [
+        "\u05e4\u05d0\u05e8\u05e7"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-node-5210720414",
+      "name": "\u05d4\u05e8\u05e6\u05dc/\u05e4\u05d0\u05e8\u05e7 \u05d5\u05e8\u05e9\u05d4",
+      "lat": 32.066259,
+      "lng": 34.85724,
+      "address": "Petah Tikva",
+      "category": "park",
+      "nameKeywords": [
+        "\u05e4\u05d0\u05e8\u05e7"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-node-5210720891",
+      "name": "\u05e4\u05d0\u05e8\u05e7 \u05d9\u05e6\u05d7\u05e7 \u05d0\u05d5\u05d7\u05d9\u05d5\u05df/\u05d4\u05e8\u05d1 \u05de\u05e9\u05d4 \u05de\u05dc\u05db\u05d4",
+      "lat": 32.092988,
+      "lng": 34.869234,
+      "address": "Petah Tikva",
+      "category": "park",
+      "nameKeywords": [
+        "\u05e4\u05d0\u05e8\u05e7"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-node-5210720905",
+      "name": "\u05de\u05ea\u05e0\u05f4\u05e1 \u05e0\u05d5\u05d5\u05d4 \u05d2\u05df/\u05d2\u05e8\u05d9\u05e0\u05e9\u05e4\u05df",
+      "lat": 32.095969,
+      "lng": 34.875889,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-node-5846336967",
+      "name": "\u05d2\u05df \u05d9\u05dc\u05d3\u05d9\u05dd",
+      "lat": 32.0959255,
+      "lng": 34.8787319,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-node-6433537760",
+      "name": "\u05d7\u05e0\u05d9\u05d5\u05df \u05e4\u05d0\u05e8\u05e7 \u05d0\u05d5\u05dc\u05d9\u05de\u05e4\u05d9\u05d4",
+      "lat": 32.0946962,
+      "lng": 34.8643724,
+      "address": "Petah Tikva",
+      "category": "park",
+      "nameKeywords": [
+        "\u05e4\u05d0\u05e8\u05e7"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-node-7449679437",
+      "name": "\u05d2\u05df \u05e2\" \u05e9 \u05d7\u05dc\u05dc\u05d9 \u05e2\u05de\u05d9\u05e9\u05d1",
+      "lat": 32.0737569,
+      "lng": 34.9098957,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-node-9164048383",
+      "name": "\u05e1\u05e4\u05d5\u05e8\u05d8\u05e7 \u05e7\u05e8\u05d9\u05d9\u05ea \u05d0\u05d5\u05e0\u05d5",
+      "lat": 32.0654888,
+      "lng": 34.8638432,
+      "address": "Petah Tikva",
+      "category": "green space",
+      "nameKeywords": [],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-node-9730045570",
+      "name": "\u05db\u05dc \u05d1\u05d5 \u05dc\u05d2\u05df",
+      "lat": 32.0603632,
+      "lng": 34.9118997,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-node-11691016147",
+      "name": "\u05d2\u05d9\u05e0\u05ea \u05de\u05e9\u05d7\u05e7\u05d9\u05dd",
+      "lat": 32.1023431,
+      "lng": 34.9006472,
+      "address": "Petah Tikva",
+      "category": "green space",
+      "nameKeywords": [],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-node-13271601729",
+      "name": "\u05d2\u05df \u05d3\u05e8\u05d5\u05e8",
+      "lat": 32.0711842,
+      "lng": 34.8603794,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-node-13271601730",
+      "name": "\u05d2\u05df \u05e9\u05dc\u05d3\u05d2",
+      "lat": 32.0711114,
+      "lng": 34.8603516,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-node-13271601731",
+      "name": "\u05d2\u05df \u05ea\u05de\u05d9\u05e8\u05d5\u05df",
+      "lat": 32.0710255,
+      "lng": 34.8603842,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-node-13285073835",
+      "name": "\u05e9\u05db\u05d5\u05e0\u05ea \u05e0\u05d5\u05d5\u05d4 \u05d2\u05df",
+      "lat": 32.0963856,
+      "lng": 34.8705302,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-node-13442340555",
+      "name": "\u05e9\u05db\u05d5\u05e0\u05ea \u05e0\u05d5\u05d5\u05d4 \u05d2\u05df",
+      "lat": 32.0935996,
+      "lng": 34.8779719,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-42791502",
+      "name": "\u05d2\u05df \u05d7\u05e0\u05d4 \u05e1\u05e0\u05e9",
+      "lat": 32.0859127,
+      "lng": 34.8935435,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-43113653",
+      "name": "\u05e4\u05d0\u05e8\u05e7 \u05d9\u05e6\u05d7\u05e7 \u05d0\u05d5\u05d7\u05d9\u05d5\u05df",
+      "lat": 32.0937097,
+      "lng": 34.8682335,
+      "address": "Petah Tikva",
+      "category": "park",
+      "nameKeywords": [
+        "\u05e4\u05d0\u05e8\u05e7"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-47050770",
+      "name": "\u05d2\u05df \u05d4\u05e2\u05e6\u05de\u05d0\u05d5\u05ea",
+      "lat": 32.0833569,
+      "lng": 34.8737605,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-48175304",
+      "name": "Park eliho cohen",
+      "lat": 32.0749045,
+      "lng": 34.9120791,
+      "address": "Petah Tikva",
+      "category": "park",
+      "nameKeywords": [
+        "park"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-48559541",
+      "name": "\u05d2\u05df \u05d4\u05e2\u05e9\u05e8\u05d9\u05dd",
+      "lat": 32.0651168,
+      "lng": 34.8478812,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-49249197",
+      "name": "\u05d2\u05df \u05d9\u05d3 \u05dc\u05d1\u05e0\u05d9\u05dd",
+      "lat": 32.0865498,
+      "lng": 34.8734705,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-103730785",
+      "name": "\u05d2\u05df \u05d4\u05ea\u05e4\u05d5\u05e6\u05d5\u05ea",
+      "lat": 32.0669798,
+      "lng": 34.8390076,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-108190455",
+      "name": "\u05d2\u05df \u05d0\u05d5\u05e8\u05e0\u05d9\u05dd",
+      "lat": 32.0670711,
+      "lng": 34.8461946,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-136525897",
+      "name": "\u05e4\u05d0\u05e8\u05e7 \u05d4\u05d0\u05d7\u05d3\u05d5\u05ea \u05e2\"\u05e9 \u05de\u05e9\u05e4\u05d7\u05ea \u05d3\u05d4\u05d0\u05df",
+      "lat": 32.0728116,
+      "lng": 34.8480242,
+      "address": "Petah Tikva",
+      "category": "park",
+      "nameKeywords": [
+        "\u05e4\u05d0\u05e8\u05e7"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-141484954",
+      "name": "Belinson park",
+      "lat": 32.0795695,
+      "lng": 34.917483,
+      "address": "Petah Tikva",
+      "category": "park",
+      "nameKeywords": [
+        "park"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-147057382",
+      "name": "\u05d2\u05df \u05d4\u05e0\u05d5\u05e4\u05dc\u05d9\u05dd",
+      "lat": 32.1021956,
+      "lng": 34.8706933,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-166675973",
+      "name": "\u05e4\u05d0\u05e8\u05e7 \u05d3\u05e7\u05e8",
+      "lat": 32.0764133,
+      "lng": 34.852676,
+      "address": "Petah Tikva",
+      "category": "park",
+      "nameKeywords": [
+        "\u05e4\u05d0\u05e8\u05e7"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-166675982",
+      "name": "\u05e4\u05d0\u05e8\u05e7 \u05e8\u05de\u05d5\u05df",
+      "lat": 32.0737987,
+      "lng": 34.8542803,
+      "address": "Petah Tikva",
+      "category": "park",
+      "nameKeywords": [
+        "\u05e4\u05d0\u05e8\u05e7"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-166949274",
+      "name": "\u05d2\u05d9\u05e0\u05ea \u05d4\u05d7\u05e7\u05dc\u05d0\u05d9\u05dd",
+      "lat": 32.0754988,
+      "lng": 34.8782949,
+      "address": "Petah Tikva",
+      "category": "green space",
+      "nameKeywords": [],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-166949283",
+      "name": "\u05d2\u05d9\u05e0\u05ea \u05de\u05d9\u05d9\u05e1\u05d3\u05d9 \u05db\u05e4\u05e8 \u05d2\u05e0\u05d9\u05dd",
+      "lat": 32.0759561,
+      "lng": 34.8837085,
+      "address": "Petah Tikva",
+      "category": "green space",
+      "nameKeywords": [],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-166949291",
+      "name": "\u05e4\u05d0\u05e8\u05e7 \u05d4\u05d7\u05d9\u05d9\u05dc",
+      "lat": 32.0771989,
+      "lng": 34.8821755,
+      "address": "Petah Tikva",
+      "category": "park",
+      "nameKeywords": [
+        "\u05e4\u05d0\u05e8\u05e7"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-166952511",
+      "name": "\u05d4\u05e8\u05d1 \u05e9\u05dc\u05d5\u05dd \u05d0\u05d9\u05e4\u05e8\u05d2\u05df",
+      "lat": 32.0720976,
+      "lng": 34.8769613,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-166952528",
+      "name": "\u05d4\u05e8\u05d1 \u05e9\u05dc\u05d5\u05dd \u05d0\u05d9\u05e4\u05e8\u05d2\u05df",
+      "lat": 32.0721925,
+      "lng": 34.8780732,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-166954741",
+      "name": "\u05d2\u05df \u05ea\u05e9\u05e2\u05d4",
+      "lat": 32.0777491,
+      "lng": 34.8925988,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-167033113",
+      "name": "\u05d2\u05df \u05de\u05dc\u05d7\u05de\u05ea \u05e9\u05e9\u05ea \u05d4\u05d9\u05de\u05d9\u05dd",
+      "lat": 32.088928,
+      "lng": 34.9046202,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-167290338",
+      "name": "\u05e4\u05d0\u05e8\u05e7 \u05dc\u05d1 \u05d4\u05e1\u05d1\u05d9\u05d5\u05e0\u05d9\u05dd",
+      "lat": 32.1009567,
+      "lng": 34.8805536,
+      "address": "Petah Tikva",
+      "category": "park",
+      "nameKeywords": [
+        "\u05e4\u05d0\u05e8\u05e7"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-167290851",
+      "name": "\u05d4\u05d3\u05e9\u05d0 \u05d4\u05d2\u05d3\u05d5\u05dc",
+      "lat": 32.1045523,
+      "lng": 34.8760204,
+      "address": "Petah Tikva",
+      "category": "green space",
+      "nameKeywords": [],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-169690974",
+      "name": "\u05d2\u05df \u05d2\u05d5\u05d1\u05e8\u05e0\u05d9\u05e7",
+      "lat": 32.0951147,
+      "lng": 34.8908717,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-177433269",
+      "name": "Lea Parking Lot",
+      "lat": 32.0907034,
+      "lng": 34.865666,
+      "address": "Petah Tikva",
+      "category": "park",
+      "nameKeywords": [
+        "park"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-182391443",
+      "name": "\u05d2\u05df \u05d4\u05e8\u05e9\u05dc\u05e8",
+      "lat": 32.0935829,
+      "lng": 34.8840673,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-207878497",
+      "name": "\u05db\u05d9\u05db\u05e8 \u05d4\u05de\u05ea\u05e0\u05d3\u05d1\u05d9\u05dd",
+      "lat": 32.0894749,
+      "lng": 34.8809876,
+      "address": "Petah Tikva",
+      "category": "green space",
+      "nameKeywords": [],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-207884720",
+      "name": "\u05d2\u05df \u05e7\u05e9\u05ea",
+      "lat": 32.0896908,
+      "lng": 34.8714109,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-211910650",
+      "name": "\u05e4\u05d0\u05e8\u05e7 \u05d0\u05d5\u05dc\u05d9\u05de\u05e4\u05d9\u05d4\nC",
+      "lat": 32.094265,
+      "lng": 34.8645688,
+      "address": "Petah Tikva",
+      "category": "park",
+      "nameKeywords": [
+        "\u05e4\u05d0\u05e8\u05e7"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-211910658",
+      "name": "\u05e4\u05d0\u05e8\u05e7 \u05d0\u05d5\u05dc\u05d9\u05de\u05e4\u05d9\u05d4\nA",
+      "lat": 32.0947753,
+      "lng": 34.8641768,
+      "address": "Petah Tikva",
+      "category": "park",
+      "nameKeywords": [
+        "\u05e4\u05d0\u05e8\u05e7"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-211910660",
+      "name": "\u05e4\u05d0\u05e8\u05e7 \u05d0\u05d5\u05dc\u05d9\u05de\u05e4\u05d9\u05d4\nB",
+      "lat": 32.0947168,
+      "lng": 34.8646284,
+      "address": "Petah Tikva",
+      "category": "park",
+      "nameKeywords": [
+        "\u05e4\u05d0\u05e8\u05e7"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-225345488",
+      "name": "\u05e4\u05d0\u05e8\u05e7 \u05d0\u05d1\u05d9\u05d1\u05d4 \u05d5\u05e8\u05e9\u05d4",
+      "lat": 32.0654815,
+      "lng": 34.8576679,
+      "address": "Petah Tikva",
+      "category": "park",
+      "nameKeywords": [
+        "\u05e4\u05d0\u05e8\u05e7"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-229138784",
+      "name": "\u05e4\u05d0\u05e8\u05e7 \u05d4\u05de\u05d5\u05d6\u05d9\u05e7\u05d4",
+      "lat": 32.0780135,
+      "lng": 34.8543733,
+      "address": "Petah Tikva",
+      "category": "park",
+      "nameKeywords": [
+        "\u05e4\u05d0\u05e8\u05e7"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-231224254",
+      "name": "\u05db\u05d9\u05db\u05e8 \u05d4\u05e8\u05e2\u05d5\u05ea",
+      "lat": 32.1033501,
+      "lng": 34.8807337,
+      "address": "Petah Tikva",
+      "category": "green space",
+      "nameKeywords": [],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-235391075",
+      "name": "\u05d2\u05df \u05db\u05d9\u05e4\u05d9",
+      "lat": 32.0739811,
+      "lng": 34.8880027,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-235858974",
+      "name": "\u05e4\u05d0\u05e8\u05e7 \u05e6'\u05d9\u05d4\u05d5\u05e0\u05d4 \u05e1\u05d5\u05d2\u05d9\u05d0\u05e8\u05d4",
+      "lat": 32.0732693,
+      "lng": 34.8869861,
+      "address": "Petah Tikva",
+      "category": "park",
+      "nameKeywords": [
+        "\u05e4\u05d0\u05e8\u05e7"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-238928017",
+      "name": "\u05d2\u05df \u05d3\u05d5\u05e8\u05d9",
+      "lat": 32.1045434,
+      "lng": 34.8804102,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-238932420",
+      "name": "\u05e4\u05d0\u05e8\u05e7 \u05d0\u05d9\u05dc\u05e0\u05d5\u05ea",
+      "lat": 32.1053353,
+      "lng": 34.8772167,
+      "address": "Petah Tikva",
+      "category": "park",
+      "nameKeywords": [
+        "\u05e4\u05d0\u05e8\u05e7"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-242456997",
+      "name": "\u05d0\u05d5\u05dc\u05d9\u05de\u05e4\u05d9\u05d4",
+      "lat": 32.0943506,
+      "lng": 34.8641805,
+      "address": "Petah Tikva",
+      "category": "green space",
+      "nameKeywords": [],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-245188792",
+      "name": "\u05d2\u05d9\u05e0\u05ea \u05d4\u05e4\u05e4\u05d9\u05d5\u05df",
+      "lat": 32.1034616,
+      "lng": 34.8814756,
+      "address": "Petah Tikva",
+      "category": "green space",
+      "nameKeywords": [],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-254969368",
+      "name": "\u05db\u05d9\u05db\u05e8 \u05e6'\u05e0\u05d3\u05d5",
+      "lat": 32.0636753,
+      "lng": 34.8576581,
+      "address": "Petah Tikva",
+      "category": "green space",
+      "nameKeywords": [],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-287515766",
+      "name": "\u05e4\u05e8\u05e7 \u05d4\u05e0\u05d1\u05d9\u05d0\u05d9\u05dd",
+      "lat": 32.130269,
+      "lng": 34.8546021,
+      "address": "Petah Tikva",
+      "category": "green space",
+      "nameKeywords": [],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-289095001",
+      "name": "\u05d2\u05df \u05d9\u05d4\u05d5\u05d3\u05d4 \u05d1\u05df \u05d9\u05d4\u05d5\u05d3\u05d4",
+      "lat": 32.0843519,
+      "lng": 34.9042374,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-339423132",
+      "name": "\u05e4\u05d0\u05e8\u05e7 \u05d0\u05dc\u05e7\u05e0\u05d4",
+      "lat": 32.076282,
+      "lng": 34.854098,
+      "address": "Petah Tikva",
+      "category": "park",
+      "nameKeywords": [
+        "\u05e4\u05d0\u05e8\u05e7"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-345602171",
+      "name": "\u05d2\u05df \u05d9\u05dc\u05d3\u05d9\u05dd",
+      "lat": 32.0985073,
+      "lng": 34.8832663,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-345602172",
+      "name": "\u05d2\u05df \u05d9\u05dc\u05d3\u05d9\u05dd",
+      "lat": 32.0984373,
+      "lng": 34.882198,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-359373818",
+      "name": "Zechariah Kohlani",
+      "lat": 32.0833639,
+      "lng": 34.8957942,
+      "address": "Petah Tikva",
+      "category": "green space",
+      "nameKeywords": [],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-414961410",
+      "name": "\u05d2\u05df \u05d0\u05e8\u05d2\u05d5\u05d1",
+      "lat": 32.0772954,
+      "lng": 34.890864,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-414992990",
+      "name": "\u05d2\u05df \u05d4\u05d7\u05d9 \u05d1\u05e4\u05ea\u05d7 \u05ea\u05e7\u05d5\u05d5\u05d4",
+      "lat": 32.0872732,
+      "lng": 34.8739743,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-468038629",
+      "name": "\u05e4\u05d0\u05e8\u05e7 \u05e2\u05d5\u05e4\u05e8",
+      "lat": 32.1014595,
+      "lng": 34.8497657,
+      "address": "Petah Tikva",
+      "category": "park",
+      "nameKeywords": [
+        "\u05e4\u05d0\u05e8\u05e7"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-468495395",
+      "name": "\u05d2\u05df \u05ea\u05dc-\u05e0\u05d8\u05e2",
+      "lat": 32.0879798,
+      "lng": 34.8691788,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-502106544",
+      "name": "Yeshayahu Meshorer Playground",
+      "lat": 32.069378,
+      "lng": 34.9081475,
+      "address": "Petah Tikva",
+      "category": "playground",
+      "nameKeywords": [
+        "playground"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-502106545",
+      "name": "Yeshayahu Meshorer Playground",
+      "lat": 32.0689641,
+      "lng": 34.908161,
+      "address": "Petah Tikva",
+      "category": "playground",
+      "nameKeywords": [
+        "playground"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-502111744",
+      "name": "Yehuda Hanassi Park",
+      "lat": 32.0718995,
+      "lng": 34.907155,
+      "address": "Petah Tikva",
+      "category": "park",
+      "nameKeywords": [
+        "park"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-502208381",
+      "name": "\u05e1\u05e4\u05d5\u05e8\u05d8\u05e7 \u05e1\u05d9\u05e8\u05e7\u05d9\u05df",
+      "lat": 32.0820342,
+      "lng": 34.9067705,
+      "address": "Petah Tikva",
+      "category": "green space",
+      "nameKeywords": [],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-502208382",
+      "name": "Lover's Park",
+      "lat": 32.0799617,
+      "lng": 34.9055034,
+      "address": "Petah Tikva",
+      "category": "park",
+      "nameKeywords": [
+        "park"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-502216667",
+      "name": "\u05e4\u05d0\u05e8\u05e7 \u05d4\u05e2\u05e0\u05d1\u05dc",
+      "lat": 32.0761365,
+      "lng": 34.9100862,
+      "address": "Petah Tikva",
+      "category": "park",
+      "nameKeywords": [
+        "\u05e4\u05d0\u05e8\u05e7"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-620144799",
+      "name": "\u05d2\u05d9\u05e0\u05ea \u05d4\u05e8\u05d9\u05de\u05d5\u05df",
+      "lat": 32.0831336,
+      "lng": 34.8488606,
+      "address": "Petah Tikva",
+      "category": "green space",
+      "nameKeywords": [],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-674531677",
+      "name": "\u05e4\u05d0\u05e8\u05e7 \u05de\u05db\u05d1\u05d9\u05ea",
+      "lat": 32.0681256,
+      "lng": 34.8573078,
+      "address": "Petah Tikva",
+      "category": "park",
+      "nameKeywords": [
+        "\u05e4\u05d0\u05e8\u05e7"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-771000616",
+      "name": "\u05d2\u05df \u05dc\u05d0\u05d5\u05de\u05d9 \u05d4\u05d9\u05e8\u05e7\u05d5\u05df (\u05e4\u05ea\u05d7 \u05ea\u05e7\u05d5\u05d5\u05d4)",
+      "lat": 32.1166222,
+      "lng": 34.8710732,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-771000617",
+      "name": "\u05d2\u05df \u05dc\u05d0\u05d5\u05de\u05d9 \u05d4\u05d9\u05e8\u05e7\u05d5\u05df",
+      "lat": 32.1225202,
+      "lng": 34.8984898,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-800705898",
+      "name": "\u05e4\u05d0\u05e8\u05e7 \u05d3\u05e8\u05d5\u05dd \u05d2\u05d1\u05e2\u05ea \u05e9\u05de\u05d5\u05d0\u05dc",
+      "lat": 32.0692032,
+      "lng": 34.8565481,
+      "address": "Petah Tikva",
+      "category": "park",
+      "nameKeywords": [
+        "\u05e4\u05d0\u05e8\u05e7"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-808776037",
+      "name": "\u05e4\u05d0\u05e8\u05e7 \u05d4\u05d0\u05d9\u05e8\u05d5\u05e2\u05d9\u05dd",
+      "lat": 32.0811507,
+      "lng": 34.8529254,
+      "address": "Petah Tikva",
+      "category": "park",
+      "nameKeywords": [
+        "\u05e4\u05d0\u05e8\u05e7"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-832415749",
+      "name": "\u05e4\u05d0\u05e8\u05e7 \u05d2\u05d9\u05e1\u05d9\u05df - \u05de\u05dc\u05de \u05ea\u05d9\u05dd",
+      "lat": 32.0984186,
+      "lng": 34.8684518,
+      "address": "Petah Tikva",
+      "category": "park",
+      "nameKeywords": [
+        "\u05e4\u05d0\u05e8\u05e7"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-885182444",
+      "name": "\u05d7\u05e0\u05d9\u05d5\u05df \u05dc\u05d9\u05dc\u05d4 \u05d2\u05df \u05dc\u05d0\u05d5\u05de\u05d9 \u05de\u05e7\u05d5\u05e8\u05d5\u05ea \u05d4\u05d9\u05e8\u05e7\u05d5\u05df",
+      "lat": 32.1139316,
+      "lng": 34.9157834,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-946560744",
+      "name": "\u05e4\u05d0\u05e8\u05e7 \u05e9\u05de\u05d5\u05d0\u05dc \u05e4\u05d9\u05e0\u05dc\u05e1",
+      "lat": 32.0852881,
+      "lng": 34.8498484,
+      "address": "Petah Tikva",
+      "category": "park",
+      "nameKeywords": [
+        "\u05e4\u05d0\u05e8\u05e7"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-954996065",
+      "name": "\u05d2\u05df \u05d4\u05d0\u05ea\u05e8\u05d5\u05d2",
+      "lat": 32.0829035,
+      "lng": 34.8534454,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-964386209",
+      "name": "\u05d2\u05df \u05d2\u05d5\u05dc\u05e0\u05d9",
+      "lat": 32.0744586,
+      "lng": 34.8493014,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-970592955",
+      "name": "\u05d2\u05df \u05e9\u05d9\u05d6\u05e3",
+      "lat": 32.0669862,
+      "lng": 34.8461452,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-996614219",
+      "name": "\u05e0\u05d5\u05d5\u05d4 \u05d2\u05df",
+      "lat": 32.0951264,
+      "lng": 34.8754234,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-1123072711",
+      "name": "\u05d2\u05e0\u05d9\u05ea",
+      "lat": 32.0772225,
+      "lng": 34.8871774,
+      "address": "Petah Tikva",
+      "category": "green space",
+      "nameKeywords": [],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-1137327466",
+      "name": "\u05d2\u05df \u05d1\u05d5\u05e0\u05d9",
+      "lat": 32.0791707,
+      "lng": 34.8523785,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-1137332357",
+      "name": "\u05d2\u05d9\u05e0\u05ea \u05d0\u05dc\u05d5\u05e0\u05d9\u05dd",
+      "lat": 32.0688376,
+      "lng": 34.8462782,
+      "address": "Petah Tikva",
+      "category": "green space",
+      "nameKeywords": [],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-1185402271",
+      "name": "\u05d9\u05d5 \u05e4\u05d0\u05e8\u05e7 \u05e1\u05d2\u05d5\u05dc\u05d4",
+      "lat": 32.1072262,
+      "lng": 34.890816,
+      "address": "Petah Tikva",
+      "category": "park",
+      "nameKeywords": [
+        "\u05e4\u05d0\u05e8\u05e7"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-1199965802",
+      "name": "\u05de\u05d8\u05e8\u05d5\u05e4\u05d0\u05e8\u05e7",
+      "lat": 32.0941494,
+      "lng": 34.8633032,
+      "address": "Petah Tikva",
+      "category": "park",
+      "nameKeywords": [
+        "\u05e4\u05d0\u05e8\u05e7"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-1213381318",
+      "name": "\u05e4\u05d0\u05e8\u05e7 \u05d7\u05e8\u05d1\u05d5\u05ea \u05d1\u05e8\u05d6\u05dc",
+      "lat": 32.0759196,
+      "lng": 34.871662,
+      "address": "Petah Tikva",
+      "category": "park",
+      "nameKeywords": [
+        "\u05e4\u05d0\u05e8\u05e7"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-1220290352",
+      "name": "\u05d3\u05e8\u05db\u05d8\u05df",
+      "lat": 32.0607298,
+      "lng": 34.8557033,
+      "address": "Petah Tikva",
+      "category": "green space",
+      "nameKeywords": [],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-1237906926",
+      "name": "\u05d9\u05e2\u05e8 \u05d4\u05e9\u05d9\u05e8\u05d9\u05dd",
+      "lat": 32.1094564,
+      "lng": 34.8685428,
+      "address": "Petah Tikva",
+      "category": "green space",
+      "nameKeywords": [],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-1313218492",
+      "name": "Yehuda Ha Levi Garden",
+      "lat": 32.0606345,
+      "lng": 34.8658856,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "garden"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-1342647946",
+      "name": "\u05e4\u05d0\u05e8\u05e7 \u05e2\u05de\u05e0\u05d5\u05d0\u05dc \u05de\u05d5\u05e8\u05e0\u05d5",
+      "lat": 32.0848264,
+      "lng": 34.8709514,
+      "address": "Petah Tikva",
+      "category": "park",
+      "nameKeywords": [
+        "\u05e4\u05d0\u05e8\u05e7"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-1387320840",
+      "name": "\u05d2\u05df \u05de\u05d9\u05dc\u05de\u05df",
+      "lat": 32.0866588,
+      "lng": 34.8771994,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-1387320844",
+      "name": "\u05d2\u05df \u05de\u05de\u05d4",
+      "lat": 32.089567,
+      "lng": 34.8773888,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-1393820756",
+      "name": "\u05de\u05d2\u05e8\u05e9 \u05d2\u05df \u05d9\u05d5\u05e0\u05ea\u05df",
+      "lat": 32.0840476,
+      "lng": 34.8731681,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-1409614524",
+      "name": "\u05d2\u05df \u05d2\u05d5\u05d8\u05de\u05df",
+      "lat": 32.091613,
+      "lng": 34.8824695,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-1410737312",
+      "name": "\u05d2\u05df \u05d4\u05e8\u05d1 \u05d3\u05d5\u05d3 \u05d0\u05de\u05e8\u05d5\u05e1\u05d9",
+      "lat": 32.0956763,
+      "lng": 34.8969335,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-way-1423268457",
+      "name": "\u05de\u05d2\u05d3\u05dc \u05d1\u05d6\u05dc \u05e4\u05d0\u05e8\u05e7",
+      "lat": 32.0960539,
+      "lng": 34.8677605,
+      "address": "Petah Tikva",
+      "category": "park",
+      "nameKeywords": [
+        "\u05e4\u05d0\u05e8\u05e7"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-relation-1382493",
+      "name": "\u05e8\u05de\u05ea \u05d2\u05df",
+      "lat": 32.0708345,
+      "lng": 34.8268585,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-relation-10725642",
+      "name": "\u05d2\u05df \u05dc\u05d0\u05d5\u05de\u05d9 \u05d9\u05e8\u05e7\u05d5\u05df",
+      "lat": 32.1145066,
+      "lng": 34.9191162,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-relation-12504966",
+      "name": "\u05e4\u05d0\u05e8\u05e7 \u05d4-100, \u05de\u05e2\u05d5\u05e0\u05d5\u05ea \u05e1\u05d8\u05d5\u05d3\u05e0\u05d8\u05d9\u05dd \u05d1\u05e8 \u05d0\u05d9\u05dc\u05df",
+      "lat": 32.0710759,
+      "lng": 34.8498831,
+      "address": "Petah Tikva",
+      "category": "park",
+      "nameKeywords": [
+        "\u05e4\u05d0\u05e8\u05e7"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-relation-12504967",
+      "name": "\u05e4\u05d0\u05e8\u05e7 \u05d4-100, \u05de\u05e2\u05d5\u05e0\u05d5\u05ea \u05e1\u05d8\u05d5\u05d3\u05e0\u05d8\u05d9\u05dd \u05d1\u05e8 \u05d0\u05d9\u05dc\u05df",
+      "lat": 32.0721985,
+      "lng": 34.8499846,
+      "address": "Petah Tikva",
+      "category": "park",
+      "nameKeywords": [
+        "\u05e4\u05d0\u05e8\u05e7"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-relation-16022802",
+      "name": "\u05d2\u05e0\u05d9 \u05d9\u05d4\u05d5\u05e9\u05e2",
+      "lat": 32.1000831,
+      "lng": 34.8105423,
+      "address": "Petah Tikva",
+      "category": "green space",
+      "nameKeywords": [],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-relation-16114275",
+      "name": "\u05d2\u05df \u05d5\u05d9\u05e1\u05de\u05d5\u05e0\u05e1\u05e7\u05d9",
+      "lat": 32.0679989,
+      "lng": 34.8474166,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-relation-16782746",
+      "name": "\u05e2\u05d5\u05e7\u05e3 \u05d2\u05df \u05dc\u05d0\u05d5\u05de\u05d9 \u05d9\u05e8\u05e7\u05d5\u05df",
+      "lat": 32.1114262,
+      "lng": 34.9152335,
+      "address": "Petah Tikva",
+      "category": "garden",
+      "nameKeywords": [
+        "\u05d2\u05df"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    },
+    {
+      "id": "osm-relation-16830008",
+      "name": "\u05dc\u05d5\u05dc\u05d0\u05ea \u05e4\u05d0\u05e8\u05e7 \u05d4\u05d5\u05d3 \u05d4\u05e9\u05e8\u05d5\u05df",
+      "lat": 32.1295583,
+      "lng": 34.8887417,
+      "address": "Petah Tikva",
+      "category": "park",
+      "nameKeywords": [
+        "\u05e4\u05d0\u05e8\u05e7"
+      ],
+      "ageTags": [],
+      "amenities": [],
+      "parking": {
+        "type": "unknown",
+        "paid": null,
+        "walkMins": null,
+        "availability": "unknown"
+      }
+    }
+  ],
+  "source": "OpenStreetMap via Overpass API (expanded name + leisure search, needs curation)"
+}

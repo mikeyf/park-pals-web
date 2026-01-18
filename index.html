@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Park Pals - Petah Tikvah</title>
+    <link
+      href="https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.css"
+      rel="stylesheet"
+    />
+    <link href="./styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="app-header">
+      <div class="brand">
+        <div class="brand-mark">PP</div>
+        <div>
+          <h1>Park Pals</h1>
+          <p>Petah Tikvah parks for kids</p>
+        </div>
+      </div>
+      <div class="actions">
+        <input id="search" type="search" placeholder="Search parks" />
+        <button id="locate" type="button">Locate me</button>
+      </div>
+    </header>
+
+    <main class="app">
+      <section class="map-panel">
+        <div id="map"></div>
+      </section>
+      <aside class="list-panel">
+        <div class="panel-header">
+          <h2>Nearby parks</h2>
+          <div class="filter-row">
+            <button class="chip" data-filter-type="age" data-filter-value="0-2">Age 0-2</button>
+            <button class="chip" data-filter-type="age" data-filter-value="3-5">Age 3-5</button>
+            <button class="chip" data-filter-type="age" data-filter-value="6-9">Age 6-9</button>
+            <button class="chip" data-filter-type="amenity" data-filter-value="shade">Shade</button>
+            <button class="chip" data-filter-type="amenity" data-filter-value="bathrooms">Bathrooms</button>
+            <button class="chip" data-filter-type="parking" data-filter-value="free">Free parking</button>
+            <button class="chip chip-clear" data-filter-type="clear">Clear</button>
+          </div>
+        </div>
+        <div id="park-list" class="park-list"></div>
+        <div id="park-detail" class="park-detail">
+          <h3>Select a park</h3>
+          <p>Click a card or marker to see details here.</p>
+        </div>
+      </aside>
+    </main>
+
+    <script src="https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
