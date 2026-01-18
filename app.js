@@ -9,6 +9,15 @@ map.addControl(new maplibregl.NavigationControl({ showCompass: false }));
 
 const listEl = document.getElementById("park-list");
 const detailEl = document.getElementById("park-detail");
+const profileModal = document.getElementById("profile-modal");
+const profileClose = document.getElementById("profile-close");
+const profileName = document.getElementById("profile-name");
+const profileAddress = document.getElementById("profile-address");
+const profileAges = document.getElementById("profile-ages");
+const profileAmenities = document.getElementById("profile-amenities");
+const profileParking = document.getElementById("profile-parking");
+const ageRange = document.getElementById("age-range");
+const ageValue = document.getElementById("age-value");
 const searchInput = document.getElementById("search");
 const locateBtn = document.getElementById("locate");
 const filterChips = Array.from(document.querySelectorAll(".chip"));
@@ -16,7 +25,7 @@ let parkData = [];
 let markers = [];
 let selectedId = null;
 const activeFilters = {
-  ageTags: new Set(),
+  ageValue: Number(ageRange?.value || 5),
   amenities: new Set(),
   parkingPaid: null,
 };
@@ -36,22 +45,14 @@ function renderList(parks) {
   parks.forEach((park) => {
     const card = document.createElement("div");
     card.className = "park-card";
-    const ageTags = park.ageTags && park.ageTags.length ? park.ageTags : ["All ages"];
-    const amenities = park.amenities && park.amenities.length ? park.amenities : ["Amenities TBD"];
-    const category = park.category || "green space";
-    const parkingLabel = park.parking?.paid === false ? "Free parking" : "Parking TBD";
-    const parkingType = park.parking?.type && park.parking.type !== "unknown" ? park.parking.type : "Type TBD";
     card.innerHTML = `
       <h3>${park.name}</h3>
-      <div class="park-meta">
-        <span class="badge">${category}</span>
-        <span>${ageTags.join(" • ")}</span>
-        <span>${amenities.slice(0, 2).join(" · ")}</span>
-        <span>${parkingLabel} · ${parkingType}</span>
-      </div>
     `;
     card.addEventListener("click", () => {
       selectPark(park);
+    });
+    card.addEventListener("dblclick", () => {
+      openProfile(park);
     });
     listEl.appendChild(card);
   });
@@ -143,8 +144,14 @@ function renderDetail(park) {
     <div class="detail-actions">
       <button class="ghost">Add tip</button>
       <button class="ghost">Report parking</button>
+      <button class="primary" id="open-profile">Full profile</button>
     </div>
   `;
+
+  const openBtn = document.getElementById("open-profile");
+  if (openBtn) {
+    openBtn.addEventListener("click", () => openProfile(park));
+  }
 }
 
 function selectPark(park) {
@@ -152,6 +159,38 @@ function selectPark(park) {
   map.flyTo({ center: [park.lng, park.lat], zoom: 14 });
   renderDetail(park);
 }
+
+function openProfile(park) {
+  profileName.textContent = park.name;
+  profileAddress.textContent = park.address || "Petah Tikva";
+  profileAges.innerHTML = (park.ageTags || ["All ages"])
+    .map((tag) => `<span>${tag}</span>`)
+    .join("");
+  profileAmenities.innerHTML = (park.amenities || ["Amenities TBD"])
+    .map((tag) => `<span>${tag}</span>`)
+    .join("");
+  const parking = park.parking || {};
+  const parkingLabel = parking.paid === false ? "Free parking" : "Parking TBD";
+  const parkingType = parking.type && parking.type !== "unknown" ? parking.type : "Type TBD";
+  const walkMins =
+    typeof parking.walkMins === "number" ? `${parking.walkMins} min walk` : "Walk time TBD";
+  profileParking.innerHTML = `
+    <span>${parkingLabel}</span>
+    <span>${parkingType}</span>
+    <span>${walkMins}</span>
+  `;
+  profileModal.classList.remove("hidden");
+}
+
+profileClose.addEventListener("click", () => {
+  profileModal.classList.add("hidden");
+});
+
+profileModal.addEventListener("click", (event) => {
+  if (event.target === profileModal) {
+    profileModal.classList.add("hidden");
+  }
+});
 
 function normalizeTerm(value) {
   return value.toLowerCase().replace(/[^a-z0-9\\s-]/g, "").trim();
@@ -209,6 +248,26 @@ function matchesSearch(park, term) {
   return fuzzyMatch(term, haystack);
 }
 
+function parkAgeRange(park) {
+  const tags = park.ageTags || [];
+  if (tags.includes("All ages")) {
+    return { min: 1, max: 20 };
+  }
+  let min = null;
+  let max = null;
+  tags.forEach((tag) => {
+    const parts = tag.split("-").map((item) => Number(item));
+    if (parts.length === 2 && !Number.isNaN(parts[0]) && !Number.isNaN(parts[1])) {
+      min = min === null ? parts[0] : Math.min(min, parts[0]);
+      max = max === null ? parts[1] : Math.max(max, parts[1]);
+    }
+  });
+  if (min === null || max === null) {
+    return { min: 1, max: 20 };
+  }
+  return { min, max };
+}
+
 function applySearch() {
   const term = normalizeTerm(searchInput.value);
   const filtered = parkData.filter((park) => {
@@ -217,12 +276,12 @@ function applySearch() {
       return false;
     }
 
-    if (activeFilters.ageTags.size) {
-      const tags = park.ageTags || [];
-      const hasAge = tags.some((tag) => activeFilters.ageTags.has(tag));
-      if (!hasAge) {
-        return false;
-      }
+    const ageRange = parkAgeRange(park);
+    const target = activeFilters.ageValue;
+    const lower = Math.max(1, target - 1);
+    const upper = Math.min(20, target + 1);
+    if (ageRange.max < lower || ageRange.min > upper) {
+      return false;
     }
 
     if (activeFilters.amenities.size) {
@@ -271,23 +330,19 @@ filterChips.forEach((chip) => {
     const type = chip.dataset.filterType;
     const value = chip.dataset.filterValue;
     if (type === "clear") {
-      activeFilters.ageTags.clear();
       activeFilters.amenities.clear();
       activeFilters.parkingPaid = null;
       filterChips.forEach((item) => item.classList.remove("active"));
+      if (ageRange) {
+        ageRange.value = "5";
+        ageValue.textContent = "5";
+        activeFilters.ageValue = 5;
+      }
       applySearch();
       return;
     }
 
     chip.classList.toggle("active");
-
-    if (type === "age") {
-      if (chip.classList.contains("active")) {
-        activeFilters.ageTags.add(value);
-      } else {
-        activeFilters.ageTags.delete(value);
-      }
-    }
 
     if (type === "amenity") {
       if (chip.classList.contains("active")) {
@@ -312,6 +367,15 @@ filterChips.forEach((chip) => {
     applySearch();
   });
 });
+
+if (ageRange) {
+  ageRange.addEventListener("input", () => {
+    const value = Number(ageRange.value);
+    activeFilters.ageValue = value;
+    ageValue.textContent = String(value);
+    applySearch();
+  });
+}
 
 locateBtn.addEventListener("click", () => {
   if (!navigator.geolocation) {

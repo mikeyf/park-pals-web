@@ -25,6 +25,22 @@
       </div>
     </header>
 
+    <section class="filters-bar">
+      <div class="age-filter">
+        <label for="age-range">Child age</label>
+        <input id="age-range" type="range" min="1" max="20" value="5" />
+        <span id="age-value">5</span>
+        <span class="age-range-note">(showing ±1 year)</span>
+      </div>
+      <div class="filter-row">
+        <button class="chip" data-filter-type="amenity" data-filter-value="shade">Shade</button>
+        <button class="chip" data-filter-type="amenity" data-filter-value="bathrooms">Bathrooms</button>
+        <button class="chip" data-filter-type="amenity" data-filter-value="fenced">Fenced</button>
+        <button class="chip" data-filter-type="parking" data-filter-value="free">Free parking</button>
+        <button class="chip chip-clear" data-filter-type="clear">Clear</button>
+      </div>
+    </section>
+
     <main class="app">
       <section class="map-panel">
         <div id="map"></div>
@@ -39,17 +55,6 @@
             <button class="ghost">Filters</button>
             <button class="ghost">Plan a visit</button>
           </div>
-        </div>
-        <div class="filter-row">
-          <button class="chip" data-filter-type="age" data-filter-value="0-2">Age 0-2</button>
-          <button class="chip" data-filter-type="age" data-filter-value="3-5">Age 3-5</button>
-          <button class="chip" data-filter-type="age" data-filter-value="6-9">Age 6-9</button>
-          <button class="chip" data-filter-type="age" data-filter-value="10-12">Age 10-12</button>
-          <button class="chip" data-filter-type="amenity" data-filter-value="shade">Shade</button>
-          <button class="chip" data-filter-type="amenity" data-filter-value="bathrooms">Bathrooms</button>
-          <button class="chip" data-filter-type="amenity" data-filter-value="fenced">Fenced</button>
-          <button class="chip" data-filter-type="parking" data-filter-value="free">Free parking</button>
-          <button class="chip chip-clear" data-filter-type="clear">Clear</button>
         </div>
         <div id="park-list" class="park-list"></div>
         <div id="park-detail" class="park-detail">
@@ -68,6 +73,50 @@
         </div>
       </aside>
     </main>
+
+    <section id="profile-modal" class="profile-modal hidden">
+      <div class="profile-card">
+        <button id="profile-close" class="close-btn" type="button">Close</button>
+        <div class="profile-hero">
+          <div class="profile-title">
+            <p class="kicker">Park profile</p>
+            <h2 id="profile-name">Park name</h2>
+            <p id="profile-address">Petah Tikva</p>
+          </div>
+          <div class="hero-actions">
+            <button class="primary">Save</button>
+            <button class="ghost">Plan visit</button>
+          </div>
+        </div>
+        <div class="profile-grid">
+          <div class="profile-block">
+            <p class="kicker">Age fit</p>
+            <div id="profile-ages" class="meta-line"></div>
+          </div>
+          <div class="profile-block">
+            <p class="kicker">Amenities</p>
+            <div id="profile-amenities" class="meta-line"></div>
+          </div>
+          <div class="profile-block">
+            <p class="kicker">Parking</p>
+            <div id="profile-parking" class="meta-line"></div>
+          </div>
+          <div class="profile-block">
+            <p class="kicker">Community tips</p>
+            <div class="tip-card">
+              <p><strong>Tip:</strong> Best to visit before 5pm for shade.</p>
+            </div>
+            <div class="tip-card">
+              <p><strong>Tip:</strong> Water fountain near the south gate.</p>
+            </div>
+          </div>
+        </div>
+        <div class="profile-footer">
+          <button class="ghost">Add tip</button>
+          <button class="ghost">Report parking</button>
+        </div>
+      </div>
+    </section>
 
     <script src="https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.js"></script>
     <script src="./app.js"></script>
