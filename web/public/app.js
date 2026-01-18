@@ -95,6 +95,13 @@ function renderDetail(park) {
   const walkMins =
     typeof parking.walkMins === "number" ? `${parking.walkMins} min walk` : "Walk time TBD";
   const category = park.category || "green space";
+  const details = park.details || {};
+  const infoBits = [];
+  if (details.opening_hours) infoBits.push(`Hours: ${details.opening_hours}`);
+  if (details.operator) infoBits.push(`Operator: ${details.operator}`);
+  if (details.surface) infoBits.push(`Surface: ${details.surface}`);
+  if (details.access) infoBits.push(`Access: ${details.access}`);
+  if (details.wheelchair) infoBits.push(`Wheelchair: ${details.wheelchair}`);
 
   detailEl.innerHTML = `
     <div class="detail-header">
@@ -119,6 +126,15 @@ function renderDetail(park) {
     <div class="meta-line">
       ${amenities.map((tag) => `<span>${tag}</span>`).join("")}
     </div>
+    <p class="kicker">Details</p>
+    <div class="meta-line">
+      ${infoBits.length ? infoBits.map((item) => `<span>${item}</span>`).join("") : "<span>Details coming soon</span>"}
+    </div>
+    ${
+      details.website
+        ? `<p><a href="${details.website}" target="_blank" rel="noreferrer">Visit website</a></p>`
+        : ""
+    }
     <p class="kicker">Community</p>
     <div class="meta-line">
       <span>Tips coming soon</span>
