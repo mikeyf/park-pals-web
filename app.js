@@ -24,6 +24,10 @@ const filterChips = Array.from(document.querySelectorAll(".chip"));
 let parkData = [];
 let markers = [];
 let selectedId = null;
+const STORAGE_KEYS = {
+  parks: "parkPalsUserParks",
+  reviews: "parkPalsReviews",
+};
 const activeFilters = {
   ageValue: Number(ageRange?.value || 5),
   amenities: new Set(),
@@ -103,6 +107,7 @@ function renderDetail(park) {
   if (details.surface) infoBits.push(`Surface: ${details.surface}`);
   if (details.access) infoBits.push(`Access: ${details.access}`);
   if (details.wheelchair) infoBits.push(`Wheelchair: ${details.wheelchair}`);
+  const latestReview = getLatestReview(park.id);
 
   detailEl.innerHTML = `
     <div class="detail-header">
@@ -138,7 +143,7 @@ function renderDetail(park) {
     }
     <p class="kicker">Community</p>
     <div class="meta-line">
-      <span>Tips coming soon</span>
+      <span>${latestReview ? `Latest review: ${latestReview}` : "Tips coming soon"}</span>
       <span>Last update: TBD</span>
     </div>
     <div class="detail-actions">
@@ -180,6 +185,24 @@ function openProfile(park) {
     <span>${walkMins}</span>
   `;
   profileModal.classList.remove("hidden");
+}
+
+function loadLocalParks() {
+  try {
+    return JSON.parse(localStorage.getItem(STORAGE_KEYS.parks)) || [];
+  } catch (err) {
+    return [];
+  }
+}
+
+function getLatestReview(parkId) {
+  try {
+    const reviews = JSON.parse(localStorage.getItem(STORAGE_KEYS.reviews)) || [];
+    const match = reviews.find((item) => item.parkId === parkId);
+    return match ? match.review : null;
+  } catch (err) {
+    return null;
+  }
 }
 
 profileClose.addEventListener("click", () => {
@@ -311,7 +334,8 @@ function applySearch() {
 fetch("./data/parks.json")
   .then((res) => res.json())
   .then((data) => {
-    parkData = data.parks || [];
+    const localParks = loadLocalParks();
+    parkData = (data.parks || []).concat(localParks);
     renderList(parkData);
     renderMarkers(parkData);
     if (parkData.length) {
