@@ -38,12 +38,16 @@ function renderList(parks) {
     card.className = "park-card";
     const ageTags = park.ageTags && park.ageTags.length ? park.ageTags : ["All ages"];
     const amenities = park.amenities && park.amenities.length ? park.amenities : ["Amenities TBD"];
+    const category = park.category || "green space";
+    const parkingLabel = park.parking?.paid === false ? "Free parking" : "Parking TBD";
+    const parkingType = park.parking?.type && park.parking.type !== "unknown" ? park.parking.type : "Type TBD";
     card.innerHTML = `
       <h3>${park.name}</h3>
       <div class="park-meta">
-        <span class="badge">${ageTags.join(" • ")}</span>
+        <span class="badge">${category}</span>
+        <span>${ageTags.join(" • ")}</span>
         <span>${amenities.slice(0, 2).join(" · ")}</span>
-        <span>${park.parking?.paid === false ? "Free parking" : "Parking TBD"}</span>
+        <span>${parkingLabel} · ${parkingType}</span>
       </div>
     `;
     card.addEventListener("click", () => {
@@ -90,23 +94,39 @@ function renderDetail(park) {
   const parkingType = parking.type && parking.type !== "unknown" ? parking.type : "Type TBD";
   const walkMins =
     typeof parking.walkMins === "number" ? `${parking.walkMins} min walk` : "Walk time TBD";
+  const category = park.category || "green space";
 
   detailEl.innerHTML = `
-    <h3>${park.name}</h3>
-    <p>${park.address || "Petah Tikva"}</p>
-    <div class="meta-line">
-      <span>${park.category || "green space"}</span>
+    <div class="detail-header">
+      <div>
+        <p class="kicker">Park profile</p>
+        <h3>${park.name}</h3>
+        <p>${park.address || "Petah Tikva"}</p>
+      </div>
+      <button class="primary">Save</button>
     </div>
     <div class="meta-line">
-      ${ageTags.map((tag) => `<span>${tag}</span>`).join("")}
-    </div>
-    <div class="meta-line">
-      ${amenities.map((tag) => `<span>${tag}</span>`).join("")}
-    </div>
-    <div class="meta-line">
+      <span>${category}</span>
       <span>${parkingLabel}</span>
       <span>${parkingType}</span>
       <span>${walkMins}</span>
+    </div>
+    <p class="kicker">Age fit</p>
+    <div class="meta-line">
+      ${ageTags.map((tag) => `<span>${tag}</span>`).join("")}
+    </div>
+    <p class="kicker">Amenities</p>
+    <div class="meta-line">
+      ${amenities.map((tag) => `<span>${tag}</span>`).join("")}
+    </div>
+    <p class="kicker">Community</p>
+    <div class="meta-line">
+      <span>Tips coming soon</span>
+      <span>Last update: TBD</span>
+    </div>
+    <div class="detail-actions">
+      <button class="ghost">Add tip</button>
+      <button class="ghost">Report parking</button>
     </div>
   `;
 }

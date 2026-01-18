@@ -16,11 +16,11 @@
         <div class="brand-mark">PP</div>
         <div>
           <h1>Park Pals</h1>
-          <p>Petah Tikvah parks for kids</p>
+          <p>Petah Tikvah parks, playgrounds, and green spots</p>
         </div>
       </div>
       <div class="actions">
-        <input id="search" type="search" placeholder="Search parks" />
+        <input id="search" type="search" placeholder="Search parks or playgrounds" />
         <button id="locate" type="button">Locate me</button>
       </div>
     </header>
@@ -31,21 +31,40 @@
       </section>
       <aside class="list-panel">
         <div class="panel-header">
-          <h2>Nearby parks</h2>
-          <div class="filter-row">
-            <button class="chip" data-filter-type="age" data-filter-value="0-2">Age 0-2</button>
-            <button class="chip" data-filter-type="age" data-filter-value="3-5">Age 3-5</button>
-            <button class="chip" data-filter-type="age" data-filter-value="6-9">Age 6-9</button>
-            <button class="chip" data-filter-type="amenity" data-filter-value="shade">Shade</button>
-            <button class="chip" data-filter-type="amenity" data-filter-value="bathrooms">Bathrooms</button>
-            <button class="chip" data-filter-type="parking" data-filter-value="free">Free parking</button>
-            <button class="chip chip-clear" data-filter-type="clear">Clear</button>
+          <div>
+            <p class="kicker">Explore</p>
+            <h2>Nearby parks</h2>
           </div>
+          <div class="panel-actions">
+            <button class="ghost">Filters</button>
+            <button class="ghost">Plan a visit</button>
+          </div>
+        </div>
+        <div class="filter-row">
+          <button class="chip" data-filter-type="age" data-filter-value="0-2">Age 0-2</button>
+          <button class="chip" data-filter-type="age" data-filter-value="3-5">Age 3-5</button>
+          <button class="chip" data-filter-type="age" data-filter-value="6-9">Age 6-9</button>
+          <button class="chip" data-filter-type="age" data-filter-value="10-12">Age 10-12</button>
+          <button class="chip" data-filter-type="amenity" data-filter-value="shade">Shade</button>
+          <button class="chip" data-filter-type="amenity" data-filter-value="bathrooms">Bathrooms</button>
+          <button class="chip" data-filter-type="amenity" data-filter-value="fenced">Fenced</button>
+          <button class="chip" data-filter-type="parking" data-filter-value="free">Free parking</button>
+          <button class="chip chip-clear" data-filter-type="clear">Clear</button>
         </div>
         <div id="park-list" class="park-list"></div>
         <div id="park-detail" class="park-detail">
-          <h3>Select a park</h3>
+          <div class="detail-header">
+            <div>
+              <p class="kicker">Park profile</p>
+              <h3>Select a park</h3>
+            </div>
+            <button class="primary">Save</button>
+          </div>
           <p>Click a card or marker to see details here.</p>
+          <div class="detail-actions">
+            <button class="ghost">Add tip</button>
+            <button class="ghost">Report parking</button>
+          </div>
         </div>
       </aside>
     </main>

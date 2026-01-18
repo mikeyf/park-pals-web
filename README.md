@@ -14,3 +14,7 @@ Web PWA MVP for parents to find parks in Petah Tikvah. Map-based discovery with 
 ## Run locally
 - From `park-pals`, run: `python3 run.py`
 - Open `http://localhost:8000` in your browser
+
+## Deploy (GitHub Pages)
+- Ensure changes are committed, then run: `scripts/deploy-pages.sh`
+- Live URL: `https://mikeyf.github.io/park-pals-web/`
