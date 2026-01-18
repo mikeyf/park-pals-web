@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Park Pals Wireframes</title>
+    <style>
+      :root {
+        --ink: #1a1a1a;
+        --line: #9aa0a6;
+        --bg: #f3f4f6;
+        --card: #ffffff;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Helvetica Neue", Arial, sans-serif;
+        background: var(--bg);
+        color: var(--ink);
+      }
+
+      header {
+        padding: 20px 24px;
+        border-bottom: 2px solid var(--line);
+        background: #fff;
+      }
+
+      header h1 {
+        margin: 0 0 6px;
+        font-size: 20px;
+      }
+
+      header p {
+        margin: 0;
+        font-size: 13px;
+        color: #5f6368;
+      }
+
+      main {
+        padding: 20px;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      }
+
+      .frame {
+        background: var(--card);
+        border: 2px solid var(--line);
+        border-radius: 14px;
+        padding: 14px;
+        display: grid;
+        gap: 10px;
+        min-height: 520px;
+      }
+
+      .frame h2 {
+        margin: 0;
+        font-size: 16px;
+      }
+
+      .bar {
+        border: 2px solid var(--line);
+        border-radius: 10px;
+        height: 34px;
+        display: grid;
+        grid-template-columns: 1fr auto;
+        gap: 8px;
+        padding: 4px 8px;
+        align-items: center;
+      }
+
+      .chip-row {
+        display: flex;
+        gap: 6px;
+        flex-wrap: wrap;
+      }
+
+      .chip {
+        border: 2px solid var(--line);
+        border-radius: 999px;
+        padding: 4px 10px;
+        font-size: 11px;
+      }
+
+      .map {
+        border: 2px solid var(--line);
+        border-radius: 12px;
+        flex: 1;
+        min-height: 240px;
+        position: relative;
+      }
+
+      .pin {
+        width: 10px;
+        height: 10px;
+        background: #111;
+        border-radius: 50%;
+        position: absolute;
+      }
+
+      .list {
+        border: 2px solid var(--line);
+        border-radius: 12px;
+        padding: 10px;
+        display: grid;
+        gap: 8px;
+      }
+
+      .card {
+        border: 2px solid var(--line);
+        border-radius: 10px;
+        padding: 8px;
+        display: grid;
+        gap: 6px;
+      }
+
+      .row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+      }
+
+      .btn {
+        border: 2px solid var(--line);
+        border-radius: 8px;
+        height: 30px;
+      }
+
+      .stack {
+        display: grid;
+        gap: 8px;
+      }
+
+      .label {
+        font-size: 12px;
+        color: #5f6368;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Park Pals Wireframes</h1>
+      <p>Visual wireframes for the MVP flows (Petah Tikvah)</p>
+    </header>
+
+    <main>
+      <section class="frame">
+        <h2>1) Map + List (Home)</h2>
+        <div class="bar">
+          <div class="label">Search parks</div>
+          <div class="btn"></div>
+        </div>
+        <div class="chip-row">
+          <div class="chip">Age 3-5</div>
+          <div class="chip">Shade</div>
+          <div class="chip">Free parking</div>
+        </div>
+        <div class="map">
+          <div class="pin" style="left: 20%; top: 30%;"></div>
+          <div class="pin" style="left: 60%; top: 40%;"></div>
+          <div class="pin" style="left: 45%; top: 65%;"></div>
+        </div>
+        <div class="list">
+          <div class="card">
+            <div class="label">Park name</div>
+            <div class="chip-row">
+              <div class="chip">3-5</div>
+              <div class="chip">Shade</div>
+              <div class="chip">Free</div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="label">Park name</div>
+            <div class="chip-row">
+              <div class="chip">0-2</div>
+              <div class="chip">Bathrooms</div>
+              <div class="chip">Street</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="frame">
+        <h2>2) Park Profile</h2>
+        <div class="map" style="min-height: 140px;"></div>
+        <div class="row">
+          <div class="card">
+            <div class="label">Age-fit badges</div>
+            <div class="chip-row">
+              <div class="chip">0-2</div>
+              <div class="chip">3-5</div>
+              <div class="chip">6-9</div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="label">Amenities</div>
+            <div class="chip-row">
+              <div class="chip">Shade</div>
+              <div class="chip">Fenced</div>
+              <div class="chip">Bathrooms</div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="label">Parking summary</div>
+          <div class="chip-row">
+            <div class="chip">Free</div>
+            <div class="chip">Lot</div>
+            <div class="chip">5 min walk</div>
+          </div>
+        </div>
+        <div class="stack">
+          <div class="label">Community tips</div>
+          <div class="card"></div>
+          <div class="card"></div>
+          <div class="row">
+            <div class="btn"></div>
+            <div class="btn"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="frame">
+        <h2>3) Filters</h2>
+        <div class="stack">
+          <div class="label">Age ranges</div>
+          <div class="chip-row">
+            <div class="chip">0-2</div>
+            <div class="chip">3-5</div>
+            <div class="chip">6-9</div>
+            <div class="chip">10-12</div>
+          </div>
+          <div class="label">Amenities</div>
+          <div class="chip-row">
+            <div class="chip">Bathrooms</div>
+            <div class="chip">Shade</div>
+            <div class="chip">Fenced</div>
+            <div class="chip">Water</div>
+          </div>
+          <div class="label">Parking</div>
+          <div class="chip-row">
+            <div class="chip">Free</div>
+            <div class="chip">Paid</div>
+            <div class="chip">Street</div>
+            <div class="chip">Lot</div>
+          </div>
+          <div class="label">Distance</div>
+          <div class="bar"></div>
+          <div class="row">
+            <div class="btn"></div>
+            <div class="btn"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="frame">
+        <h2>4) Plan Visit</h2>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card" style="height: 120px;"></div>
+        <div class="btn"></div>
+      </section>
+
+      <section class="frame">
+        <h2>5) Add Tip / Parking Report</h2>
+        <div class="card" style="height: 120px;"></div>
+        <div class="label">Parking availability</div>
+        <div class="chip-row">
+          <div class="chip">Low</div>
+          <div class="chip">Med</div>
+          <div class="chip">High</div>
+        </div>
+        <div class="label">Paid / Free</div>
+        <div class="chip-row">
+          <div class="chip">Free</div>
+          <div class="chip">Paid</div>
+        </div>
+        <div class="btn"></div>
+      </section>
+    </main>
+  </body>
+</html>
