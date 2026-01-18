@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Park Pals - Update Parks</title>
+    <link href="./styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="app-header">
+      <div class="brand">
+        <div class="brand-mark">PP</div>
+        <div>
+          <h1>Update parks</h1>
+          <p>Community updates and reviews</p>
+        </div>
+      </div>
+      <div class="actions">
+        <a class="ghost" href="./index.html">Back to map</a>
+      </div>
+    </header>
+
+    <main class="manage">
+      <section class="manage-panel">
+        <h2>Add a new park</h2>
+        <form id="new-park-form" class="form-grid">
+          <label>
+            Name
+            <input name="name" type="text" placeholder="Park name" />
+          </label>
+          <label>
+            Address
+            <input name="address" type="text" placeholder="Petah Tikva" />
+          </label>
+          <label>
+            Coordinates
+            <input name="coords" type="text" placeholder="32.089, 34.886" />
+          </label>
+          <label>
+            Age range (1-20)
+            <input name="ageRange" type="text" placeholder="3-8" />
+          </label>
+          <label>
+            Amenities
+            <input name="amenities" type="text" placeholder="shade, bathrooms, fenced" />
+          </label>
+          <label>
+            Parking
+            <input name="parking" type="text" placeholder="free, street, 4 min walk" />
+          </label>
+          <button class="primary" type="submit">Submit new park</button>
+        </form>
+      </section>
+
+      <section class="manage-panel">
+        <h2>Update an existing park</h2>
+        <form id="update-park-form" class="form-grid">
+          <label>
+            Select park
+            <select id="park-select" name="parkId">
+              <option>Choose a park</option>
+              <option>Sample Park</option>
+              <option>Sample Playground</option>
+            </select>
+          </label>
+          <label>
+            Update notes
+            <textarea name="updateNote" rows="4" placeholder="What changed?"></textarea>
+          </label>
+          <label>
+            Parking availability
+            <select name="availability">
+              <option value="high">High</option>
+              <option value="medium">Medium</option>
+              <option value="low">Low</option>
+            </select>
+          </label>
+          <label>
+            Add a review
+            <textarea name="review" rows="3" placeholder="Share your experience"></textarea>
+          </label>
+          <button class="primary" type="submit">Submit update</button>
+        </form>
+      </section>
+
+      <section class="manage-panel">
+        <h2>Recent community reviews</h2>
+        <div id="updates-list"></div>
+        <h3>Latest reviews</h3>
+        <div id="reviews-list"></div>
+      </section>
+    </main>
+
+    <script src="./manage.js"></script>
+  </body>
+</html>
